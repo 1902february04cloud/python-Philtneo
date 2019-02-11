@@ -39,6 +39,7 @@ Use the main function for testing purposes and to show me results for all functi
 '''
 def main():
 
+	print(reverse('Hello'))
 '''
 1. Reverse a String. Example: reverse("example"); -> "elpmaxe"
 
@@ -51,6 +52,17 @@ return: str
 '''
 def reverse(string):
 
+	return(string[::-1])
+		
+
+
+
+
+
+
+
+
+
 '''
 2. Convert a phrase to its acronym. Techies love their TLA (Three Letter
 Acronyms)! Help generate some jargon by writing a program that converts a
@@ -60,7 +72,7 @@ param: str
 return: str
 '''
 def acronym(phrase):
-
+	pass
 '''
 3. Determine if a triangle is equilateral, isosceles, or scalene. An
 equilateral triangle has all three sides the same length. An isosceles
@@ -72,8 +84,9 @@ different lengths.
 param: float, float, float
 return: str -> 'equilateral', 'isoceles', 'scalene'
 '''
-def whichTriangle(sideOne, sideTwo, sideThree):
 
+def whichTriangle(sideOne, sideTwo, sideThree):
+	pass
 
 '''
 4. Given a word, compute the scrabble score for that word.
@@ -91,7 +104,7 @@ param: str
 return: int
 '''
 def scrabble(word):
-
+	pass
 '''
 5. An Armstrong number is a number that is the sum of its own digits each
 raised to the power of the number of digits.
@@ -108,7 +121,7 @@ param: int
 return: bool
 '''
 def armstrong(number):
-
+	pass
 '''
 6. Compute the prime factors of a given natural number.
 
@@ -119,8 +132,8 @@ Note that 1 is not a prime number.
 param: int
 return: list
 '''
-def primeFactors(number)
-
+def primeFactors(number):
+	pass
 '''
 7. Determine if a sentence is a pangram. A pangram (Greek: παν γράμμα, pan
 gramma, "every letter") is a sentence using every letter of the alphabet at
@@ -135,7 +148,7 @@ param: str
 return: bool
 '''
 def pangram(sentence):
-
+	pass
 '''
 8. Sort list of integers.
 f([2,4,5,1,3,1]) = [1,1,2,3,4,5]
@@ -148,7 +161,7 @@ param: list
 return: list
 '''
 def sort(numbers):
-
+	pass
 '''
 9. Create an implementation of the rotational cipher, also sometimes called
 the Caesar cipher.
@@ -179,7 +192,7 @@ param: int, str
 return: str
 '''
 def rotate(key, string):
-
+	pass
 '''
 10. Take 10 numbers as input from the user and store all the even numbers in a file called even.txt and
 the odd numbers in a file called odd.txt.
@@ -188,6 +201,6 @@ param: none, from the keyboard
 return: nothing
 '''
 def evenAndOdds():
-
-if __name__ == "__main__"
+	pass
+if __name__ == "__main__":
     main()
